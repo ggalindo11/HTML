@@ -1,0 +1,68 @@
+
+
+.header {
+    background-color: gray;
+    overflow: hidden;
+    text-transform: uppercase;
+    float: right;
+}
+
+.header a {
+
+    color: green;
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px    
+}
+
+.header a:hover {
+    color: hotpink;
+}
+
+.header a:active {
+    color: blue;
+}
+
+.gradiant {
+    background-image: linear-gradient(120deg, #2980b9, #8e44ad);
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.articlelist{
+    background-color: white;
+    border: 2px;
+    text-align:center;
+    margin: auto;
+}
+
+.wb {
+    background-color: white;
+    text-align: left;
+}
+.wb:hover {
+    background-color: lightblue;
+}
+
+.gb {
+    background-color: whitesmoke;
+    text-align: left;
+}
+.gb:hover {
+    background-color: lightblue;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+
+}
+
+.footerdiv{
+    text-align: center;
+    font-size: larger;
+}
+
